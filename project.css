@@ -1,0 +1,374 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.nav {
+  background-color: rgba(0, 0, 0, 0.04);
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
+.nav .subnav {
+  background-color: rgba(0, 0, 0, 0.04);
+  height: 70px;
+  display: flex;
+  position: fixed;
+  width: 70%;
+  border-bottom: 1px solid grey;
+}
+
+
+.subnav1 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+.subnav1 p {
+  font-style: normal;
+  color: rgb(79, 71, 71);
+  /* text-decoration-color: rgb(210, 206, 206, 0.5); */
+  margin-top: 20px;
+  padding-left: 40px;
+}
+.one {
+  width: 50%;
+}
+.subnav2 {
+  flex: 1;
+  display: flex;  
+  justify-content: center;
+  padding-left: 70px;
+  margin-top: 20px;
+}
+hr {
+  width: 20px;
+  color: rgb(117, 73, 6);
+}
+
+.subnav2 select {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 17px;
+  color: black;
+  background-color: white;
+  border: none;
+}
+.subnav3 {
+  flex: 4;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.subnav3 button {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+}
+.closebutton {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.closebutton img {
+  width: 50px;
+  height: 40px;
+  left: 100px;
+}
+
+.subnav4 {
+  color: rgb(79, 71, 71);
+  padding-top: 80px;
+  padding-right: 55%;
+  position: fixed;
+}
+
+.applelogo img {
+  width: 50px;
+  height: 35px;
+}
+
+.nav2 {
+  height: 50px;
+  background-color: rgba(241, 235, 235, 0.04);
+  width: 100%;
+  padding-top: 138px;
+  display: flex;
+  position: sticky;
+  top: 0px;
+  justify-content: center;
+}
+
+.subnav5 {
+  width: 70%;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.front {
+  height: 90vh;
+  width: 100%;
+  background-image: url(https://www.apple.com/v/home/cg/images/heroes/bts-2025/hero_bts_2025__kjxalx8t7ia2_mediumtall_2x.jpg);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.frontone {
+  width: 280px;
+  height: 200px;
+  background-color: #0071e3;
+  border-radius: 30px;
+}
+.frontone p {
+  color: aliceblue;
+  font-size: 55px;
+  font-style: normal;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.front2 {
+  width: 280px;
+  height: 60px;
+  background-color: #0071e3;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+.front2 p {
+  color: aliceblue;
+  font-size: 25px;
+  font-style: normal;
+  padding: 10px;
+  font-weight: bold;
+}
+.front3 {
+  width: 280px;
+  height: 200px;
+  background-color: #0071e3;
+  border-radius: 30px;
+  margin: 30px;
+}
+.front3 p {
+  color: aliceblue;
+  font-size: 40px;
+  font-style: normal;
+  padding: 10px;
+  font-weight: bold;
+}
+.front button {
+  height: 50px;
+  width: 80px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  color: blue;
+  border-color: blue;
+  font-size: 20px;
+}
+
+.frontone img {
+  height: 90px;
+  width: 140px;
+  position: relative;
+  bottom: 230px;
+  left: 234px;
+}
+.front2 img {
+  height: 60px;
+  width: 120px;
+  position: relative;
+  bottom: 220px;
+  left: 260px;
+  rotate: 180%;
+}
+.front3 img {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  bottom: 230px;
+  right: 40px;
+}
+
+.second {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./hero_iphone_family__fuz5j2v5xx6y_mediumtall_2x.jpg);
+}
+.second1 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+.second1 h1 {
+  height: 70px;
+  width: 70px;
+  font-size: 60px;
+}
+
+.second1 #para {
+  height: 30px;
+  width: 280px;
+  font-size: 20px;
+}
+
+.second #b1 {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  color: white;
+  background-color: oklch(50.725% 0.15631 256.468);
+  border: none;
+}
+
+.second #b2 {
+  width: 120px;
+  height: 40px;
+  border-color: oklch(50.725% 0.15631 256.468);
+  color: #0071e3;
+  border-radius: 30px;
+}
+
+.second1 #paraitem {
+  height: 30px;
+  width: 280px;
+  font-size: 20px;
+  color: black;
+}
+
+.three {
+  height: 90vh;
+  width: 100%;
+  background-image: url(./hero_endframe__sg50vzdd6sqm_large.jpg);
+  display: flex;
+  justify-content: center;
+}
+.three1 {
+  display: block;
+  align-items: center;
+}
+.three1 h1 {
+  height: 70px;
+  width: 270px;
+  font-size: 55px;
+  color: white;
+  padding: 60px 70px 0px 75px;
+}
+.three1 p {
+  width: 470px;
+  color: white;
+  font-size: 25px;
+}
+.b1 {
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+  padding-left: 80px;
+}
+.three1 .b1 #b1 {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  color: white;
+  background-color: oklch(50.725% 0.15631 256.468);
+  border: none;
+}
+.three1 .b1 #b2 {
+  width: 120px;
+  height: 40px;
+  color: #0071e3;
+  border-radius: 30px;
+  border-color: #0071e3;
+  background-color: black;
+}
+.three p {
+  color: aliceblue;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.four {
+  height: 00vh;
+  width: 100%;
+  background-color: aqua;
+}
+.four1 {
+  height: 80vh;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+.four1 .item1 {
+  height: 75vh;
+  width: 48%;
+  margin-top: 20px;
+  background-image: url(./promo_ipadpro_avail__s271j89g8kii_medium_2x.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.four1 .item2 {
+  height: 75vh;
+  width: 48%;
+  margin-top: 20px;
+   background-size: cover;
+  background-position: center;
+background-image: url(./promo_airpods_pro_2_avail__vkitqi3okwie_medium_2x.jpg);
+}
+
+
+
+
+
+.four2 {
+  height: 80vh;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+.four2 .item3 {
+  height: 75vh;
+  width: 48%;
+  background-image: url();
+}
+.four2 .item4 {
+  height: 75vh;
+  width: 48%;
+  background-color: #0071e3;
+}
+
+
+.four3 {
+  height: 80vh;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+.four3 .item5 {
+  height: 75vh;
+  width: 48%;
+  background-color: #0071e3;
+}
+.four3 .item6 {
+  height: 75vh;
+  width: 48%;
+  background-color: #0071e3;
+}
